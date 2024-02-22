@@ -1,0 +1,4 @@
+function aperte(){
+    alert("Alô");
+    
+}
