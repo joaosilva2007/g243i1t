@@ -1,1 +1,2 @@
-# g243i1t
+# Ezequiel N°10
+# João Pedro N°23
