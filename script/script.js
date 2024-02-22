@@ -1,4 +1,6 @@
 function aperte(){
-    alert("Alô");
+    while(true){
+      alert("Alô");
+    }
     
 }
