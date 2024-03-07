@@ -1,9 +1,78 @@
 .btn {
+    margin-top: 25%;
     background-color: rgb(5, 5, 73);
-    color: whitesmoke;
     font-size: 40px;
+    color: whitesmoke;
+    width: 400px;
+    height: 200px;
+}
+.conteudo{
+   text-align: center;
 }
 
 body{
-    background-color: rgb(71, 9, 71);
+    background-color: rgb(255, 255, 255);
 }
+.barra{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(54, 6, 54);
+    color: white;
+}
+.tablet{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    font-size: 50px;
+    color: whitesmoke;
+}
+@media (min-width:800px) {
+    .btn{
+     width: 100px;
+     height: 50px;
+     font-size: 20px;
+     margin-top: 0%;
+    }
+   .barra{
+    background: springgreen;
+    height: 80px;
+   }
+   .conteudo{
+    text-align: right;
+ }
+   .mobile{
+    display: none;
+   }
+   .tablet{
+    display: inline;
+    font-size: 60px;
+    color: black;
+}
+
+}
+@media (min-width:1228px) {
+    .btn{
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 0%;
+       }
+    .barra{
+     background:crimson ;
+     height: 120px;
+    }
+    .conteudo{
+        text-align: left;
+     }
+    .tablet{
+     display: none;
+ }
+    .desktop{
+        display: inline;
+        font-size: 100px;
+    }
+ }
