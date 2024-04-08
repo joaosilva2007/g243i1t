@@ -26,4 +26,26 @@ function abrir_aba(num){
     document.getElementById("btn5").disable = true;
     document.getElementById("aba5").style.display = "block";
     }
+
+}
+
+let contador = null;
+let inicio   = 0;
+let  fim        = 0;
+
+function contagem(){
+  if(inicio != fim){
+    document.getElementById("valor").innerHTML = inicio;
+    if(inicio > fim) inicio--;
+    else inicio++;
+  }
+
+}
+function contador(){
+  inicio =document.getElementById("inicio").value ; 
+  fim =document.getElementById("fim").value ; 
+  if(inicio > fim ) fim = Number(fim) -1;
+  e
+  
+
 }
