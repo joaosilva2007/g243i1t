@@ -1,0 +1,6 @@
+.root {
+    --fundoLogin : rgb(10, 10, 10);
+    --corfundoLogin :  rgb(10, 10, 10);
+    --btnSistema : rgb(34, 243, 226);
+    --corFonteBotao : black;
+}
